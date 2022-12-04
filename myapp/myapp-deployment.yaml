@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gcr.io/tim-acloud-guru/myapp:blue
+        image: gcr.io/$PROJECT/myapp:blue
         ports:
         - containerPort: 8888
 
